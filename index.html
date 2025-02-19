@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <!-- INICIO DEL HEADER -->
     <header>
         <!-- TITULO Y MENÚ DE NAVEGACION -->
          <h1>Emilio's Programming Journey</h1>
@@ -22,10 +23,88 @@
          </nav>
     </header>
 
+    <!-- INICIO CONTENEDOR PRINCIPAL MAIN -->
     <main>
-        
+        <!-- SECCIÓN SOBRE MÍ, TARJETA DE PRESENTACIÓN -->
+         <section>
+            <h2>About Me</h2>
+
+            <figure>
+                <img src="images/emilio.jpg" title="Emilio's portrait" alt="Emilio smiling">
+                <figcaption><em>Emilio Ruiz, a programming student</em></figcaption>
+            </figure>
+            
+            <p>I'm Emilio Ruiz, 1991. Based in Málaga, Spain. A programming enthusiast.</p>
+            <p>I studied telecommunications engineering and economics. During my studies I discovered that what I enjoyed most was programming. So, in 2024, I started my training as a multiplatform application developer and a master's degree in cybersecurity.</p>
+            <p>I not only enjoy programming, but also economics, where I have been investing and trading YM futures for more than 10 years. Author of the Amazon's best-seller book on trading psychology called <em>Trading Al Día</em>.</p>
+            
+         </section>
+
+         <!-- SECCION SOBRE LENGUAJES Y PROYECTOS QUE HAGA -->
+          <h2>Projects</h2>
+          <!-- Contenedor para proyecto JAVA -->
+          <div>
+            <h3>JAVA</h3>
+            <ul>
+                <li><a href="">Project 1</a></li>
+                <li><a href=""></a>Project 2</li>
+            </ul>
+          </div>
+          <!-- Contenedor para proyectos HTML y CSS-->
+           <div>
+            <h3>HTML</h3>
+            <ul>
+                <li><a href="">Read more</a></li>
+            </ul>
+           </div>
+           <!-- Contenedor para otros lenguajes -->
+            <div>
+                <h3>Others languages</h3>
+                <ul>
+                    <li><a href="">Read more</a></li>
+                </ul>
+            </div>
     </main>
-    <footer></footer>
+
+    <!-- UN ASIDE APARTE PARA LA SECCIÓN DE REDES SOCIALES y GITHUB-->
+     <aside>
+        <h2>Social Media</h2>
+        <ul>
+            <li><a href="https://github.com/aquileorl">GitHub</a></li>
+            <li><a href="https://x.com/eruiztrading">X</a></li>
+            <li><a href="https://instagram.com/eruiztrading">Instagram</a></li>
+        </ul>
+     </aside>
+
+     <!-- SECCION DE CONTACTO -->
+      <section>
+        <h2>Contact with me</h2>
+        <form action="" method="post">
+            <fieldset>
+                <label for="name">First name: </label>
+                <input type="text" name="first_name" required >
+                
+
+                <label for="lastname">Lastname: </label>
+                <input type="text" name="lastname" required>
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" required>
+        
+            </fieldset>
+
+            <textarea name="message" id="message" rows="10" cols="70">
+                Write your message here
+            </textarea>
+
+            
+        </form>
+      </section>
+
+    
+    <footer>
+        <p>Rights reserved, 2025</p>
+    </footer>
     
 </body>
 
