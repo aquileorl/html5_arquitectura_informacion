@@ -79,29 +79,34 @@
      <!-- SECCION DE CONTACTO -->
       <section>
         <h2>Contact with me</h2>
+        <!-- FORMULARIO DE CONTACTO -->
         <form action="" method="post">
             <fieldset>
-                <label for="name">First name: </label>
-                <input type="text" name="first_name" required >
+                <label for="firstname">First name: </label>
+                <input type="text" id="firstname" name="firstname" required >
                 
 
                 <label for="lastname">Lastname: </label>
-                <input type="text" name="lastname" required>
+                <input type="text" id="lastname" name="lastname" required>
 
                 <label for="email">Email: </label>
-                <input type="email" name="email" required>
+                <input type="email" id="email" name="email" required>
         
             </fieldset>
 
             <textarea name="message" id="message" rows="10" cols="70">
                 Write your message here
+                
             </textarea>
+
+            <input type="button" value="Send">
+            
 
             
         </form>
       </section>
 
-    
+    <!-- FOOTER -->
     <footer>
         <p>Rights reserved, 2025</p>
     </footer>
